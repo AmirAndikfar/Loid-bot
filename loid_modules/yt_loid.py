@@ -8,7 +8,7 @@ class YTLOID:
         self.bot = bot
         self.yt_dl_options = {"format": "bestaudio/best"}
         self.ytdl = yt_dlp.YoutubeDL(self.yt_dl_options)
-        self.ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn -filter:a "volume=0.05"'}
+        self.ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn -filter:a "volume=0.15"'}
         self.queues = {}
         self.voice_clients = {}
 
