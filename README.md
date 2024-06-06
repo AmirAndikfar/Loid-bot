@@ -22,26 +22,20 @@ Loid-bot is a Discord music player that allows you to play music from YouTube li
 * Install `yt-dlp` using `pip install yt-dlp`
 * Install `ffmpeg` from the official website
 * Clone the repository using `git clone https://github.com/AmirAndikfar/Loid-bot.git`
-* Configure the bot by creating a `.env` file with your Discord bot token
-* Run the bot using `python bot.py`
 
 #### Linux
 
 * Install `discord.py` using `pip install discord.py`
 * Install `yt-dlp` using `pip install yt-dlp`
-* Install `ffmpeg` using your distribution's package manager (e.g., `sudo apt-get install ffmpeg` on Ubuntu)
+* Install `ffmpeg` using your distribution's package manager (e.g., `sudo apt install ffmpeg` on Debian, `sudo dnf install ffmpeg` on Fedora, `sudo pacman -S ffmpeg` on Arch)
 * Clone the repository using `git clone https://github.com/AmirAndikfar/Loid-bot.git`
-* Configure the bot by creating a `.env` file with your Discord bot token
-* Run the bot using `python3 bot.py`
-
+  
 #### Mac
 
 * Install `discord.py` using `pip install discord.py`
 * Install `yt-dlp` using `pip install yt-dlp`
 * Install `ffmpeg` using Homebrew (e.g., `brew install ffmpeg`)
 * Clone the repository using `git clone https://github.com/AmirAndikfar/Loid-bot.git`
-* Configure the bot by creating a `.env` file with your Discord bot token
-* Run the bot using `python3 bot.py`
 
 ## Environment Variables
 
