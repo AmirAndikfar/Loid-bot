@@ -3,7 +3,6 @@ import asyncio
 import logging
 import discord 	
 from discord.ext import commands
-from dotenv import load_dotenv
 from loid_modules.yt_loid import YTLOID
 from loid_modules.controls_loid import LOIDControls
 
@@ -15,7 +14,6 @@ def setup_logging():
     logger.addHandler(handler)
 
 def run_bot():
-    load_dotenv()
     TOKEN = os.getenv('LOID_DISCORD_TOKEN')
     intents = discord.Intents.default()
     intents.message_content = True
