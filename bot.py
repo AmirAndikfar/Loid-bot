@@ -30,7 +30,7 @@ def run_bot():
     @bot.tree.command(name="pause", description="Pause the current song")
     async def pause(interaction: discord.Interaction):
     	try:
-        	await loid_controls.pause(interaction)
+            await loid_controls.pause(interaction)
     	except Exception as e:
             logging.error(f"Error in pause command: {e}")
             await interaction.followup.send("An error occurred while trying to pause the song.")
