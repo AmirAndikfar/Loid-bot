@@ -6,6 +6,7 @@ from discord.ext import commands
 from loid_modules.yt_loid import YTLOID
 from loid_modules.controls_loid import LOIDControls
 
+
 def setup_logging():
     logger = logging.getLogger('discord')
     logger.setLevel(logging.INFO)
