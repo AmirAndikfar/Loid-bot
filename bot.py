@@ -19,7 +19,6 @@ def run_bot():
     intents.message_content = True
     bot = commands.Bot(command_prefix="$", intents=intents)
 
-    # Initialize modules
     yt_loid = YTLOID(bot)
     loid_controls = LOIDControls(bot)
 
