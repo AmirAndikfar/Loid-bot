@@ -29,7 +29,7 @@ def run_bot():
     @bot.tree.command(name="pause", description="Pause the current song")
     async def pause(interaction: discord.Interaction):
     	try:
-        	await loid_controls.pause(interaction)
+            await loid_controls.pause(interaction)
     	except Exception as e:
             logging.error(f"Error in pause command: {e}")
             await interaction.followup.send("An error occurred while trying to pause the song.")
@@ -37,7 +37,7 @@ def run_bot():
     @bot.tree.command(name="resume", description="Resume the current song")
     async def resume(interaction: discord.Interaction):
     	try:
-        	await loid_controls.resume(interaction)
+            await loid_controls.resume(interaction)
     	except Exception as e:
             logging.error(f"Error in resume command: {e}")
             await interaction.followup.send("An error occurred while trying to resume the song.")
@@ -45,7 +45,7 @@ def run_bot():
     @bot.tree.command(name="stop", description="Stop the current song and disconnect")
     async def stop(interaction: discord.Interaction):
     	try:
-        	await loid_controls.stop(interaction)
+            await loid_controls.stop(interaction)
     	except Exception as e:
             logging.error(f"Error in stop command: {e}")
             await interaction.followup.send("An error occurred while trying to stop the song.")
